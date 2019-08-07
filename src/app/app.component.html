@@ -1,4 +1,6 @@
 <div>
   <h1>Timers</h1>
-  <app-timer init="90"></app-timer>
+  <app-timer init="90" (onComplete)="logCountdownEnd()"></app-timer>
+  <app-timer init="60" (onComplete)="logCountdownEnd()"></app-timer>
+  <app-timer init="30" (onComplete)="logCountdownEnd()"></app-timer>
 </div>
